@@ -1,0 +1,109 @@
+[{
+  "_id": 10,
+  "title": "Quad God",
+  "name": "Romanian Deadlift",
+  "type": "Legs",
+  "sets": 4,
+  "reps": 15,
+  "time": 75
+},{
+  "_id": {
+    "$oid": "6281c9f6fca7cee4b0d6f122"
+  },
+  "title": "Legs Hypertrophy",
+  "name": "Front Squats",
+  "type": "Legs",
+  "sets": "4",
+  "reps": "8",
+  "time": "30"
+},{
+  "_id": {
+    "$oid": "6281ca66fca7cee4b0d6f123"
+  },
+  "title": "Arm Blaster",
+  "name": "Dumbbell Curls",
+  "type": "Triceps",
+  "sets": "3",
+  "reps": "15",
+  "time": "15"
+},{
+  "_id": {
+    "$oid": "6281ca8cfca7cee4b0d6f124"
+  },
+  "title": "Shoulder Boulders",
+  "name": "Delt Flys",
+  "type": "Shoulders",
+  "sets": "3",
+  "reps": "12",
+  "time": "15"
+},{
+  "_id": {
+    "$oid": "6281cac6fca7cee4b0d6f125"
+  },
+  "title": "Shoulder Boulders",
+  "name": "Shoulder Press",
+  "type": "Shoulders",
+  "sets": "4",
+  "reps": "10",
+  "time": "15"
+},{
+  "_id": {
+    "$oid": "6281caf6fca7cee4b0d6f126"
+  },
+  "title": "Shoulder Boulders",
+  "name": "Arnold Press",
+  "type": "Shoulders",
+  "sets": "3",
+  "reps": "8",
+  "time": "15"
+},{
+  "_id": {
+    "$oid": "6281cb0afca7cee4b0d6f127"
+  },
+  "title": "Demon Back",
+  "name": "Deadlift",
+  "type": "Pull",
+  "sets": "5",
+  "reps": "5",
+  "time": "30"
+},{
+  "_id": {
+    "$oid": "6281cb5afca7cee4b0d6f128"
+  },
+  "title": "Demon Back",
+  "name": "Cable Rows",
+  "type": "Pull",
+  "sets": "4",
+  "reps": "12",
+  "time": "15"
+},{
+  "_id": {
+    "$oid": "6281cbc2fca7cee4b0d6f129"
+  },
+  "title": "Demon Back",
+  "name": "Pull up",
+  "type": "Pull",
+  "sets": "4",
+  "reps": "10",
+  "time": "15"
+},{
+  "_id": {
+    "$oid": "6281e0a2dcee55eb3c3badae"
+  },
+  "title": "Light Chest Day",
+  "name": "Incline Chest Press",
+  "type": "Chest",
+  "sets": "4",
+  "reps": "8",
+  "time": "15"
+},{
+  "_id": {
+    "$oid": "6281e104dcee55eb3c3badaf"
+  },
+  "title": "Light Chest day",
+  "name": "Pec Flys",
+  "type": "Chest",
+  "sets": "-3",
+  "reps": "20",
+  "time": "25"
+}]
