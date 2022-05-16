@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Get YouTube Video by Keyword</title>
+        <link href="workoutList.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+        <style>
+        .paginate {
+            margin-right: 5px;
+        }
+        li {
+            display: inline-block;
+        }
+        </style>
+    </head>
+    <body>
+        <header>        
+            <div class="top">
+                <ul class="nav-menu">
+                    <li> <a class="font" href="http://localhost:4020/">Home</a></li>
+                    <li> <a href="/searchYt.html">Search</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="tagline">
+            <p class="title">Search for a Video</p>
+        </div>
+
+        <form id="yt-form" class="input-box">
+            <p><input type="text" id="keyword-input" placeholder="Enter keyword" required></p>
+            <p><input type="number" id="maxresult-input" placeholder="Max Results" min="1" max="50" required></p>
+            <p>
+                <select id="order-input" required>
+                    <option value="">--SELECT ORDER--</option>
+                    <option value="date">Date</option>
+                    <option value="rating">Rating</option>
+                    <option value="relevance">Relevance</option>
+                    <option value="title">Title</option>
+                    <option value="viewCount" selected>View Count</option>
+                </select>
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+       
+        <div id="videoListContainer"></div>
+       
+        <script src="https://apis.google.com/js/api.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+        <script src="/custom.js"></script>
+    </body>
+</html>

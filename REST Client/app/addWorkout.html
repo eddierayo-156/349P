@@ -1,0 +1,90 @@
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Add Workout</title>
+		<link href="addWorkout.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+
+		<header>
+			<div class="top">
+				<ul class="nav-menu">
+					<li> <a href="http://localhost:4020/">Home</a></li>
+					<li> <a href="searchHtml.html">Search</a></li>
+				</ul>
+			</div>
+
+			<div class="tagline">
+				<h1>Add a Workout</h1>
+			</div>
+
+			<form id="newForm" class="input-box">
+
+				<div class="input-row">
+					<label class="label-item">Workout Title: </label>
+					<input type='text' id='title' class="input-item">
+				</div>
+				
+				<div class="input-row">
+					<label class="label-item" for="type">Workout Type:</label>
+					<select name="type" id="type" class="input-item">
+						<option value="None">-</option>
+						<option value="Push">Push</option>
+						<option value="Pull">Pull</option>
+						<option value="Legs">Legs</option>
+						<option value="Chest">Chest</option>
+						<option value="Triceps">Triceps</option>
+						<option value="Biceps">Biceps</option>
+						<option value="Back">Back</option>
+						<option value="Shoulders">Shoulders</option>
+						<option value="Quads">Quads</option>
+						<option value="Hamstrings">Hamstrings</option>
+						<option value="Other">Other</option>
+					</select>
+				</div>
+
+				<div>
+					<label class="input-row">Number of Workouts:</label>
+					<input id="noOptions" type="number">
+					<button id="showOptions">Enter</button>
+				</div>
+
+				<div class="input-row">
+					<label class="label-item">Name: </label>
+					<input type='text' id='workoutName' class="input-item">	
+				</div>
+				<div class="input-row">
+					<label class="label-item">Sets: </label>
+					<input type='number' id='sets' class="input-item">	
+				</div>
+				<div class="input-row">
+					<label class="label-item">Reps: </label>
+					<input type='number' id='reps' class="input-item">	
+				</div>
+	
+				<div class="input-row">
+					<label class="label-item">Time: </label>
+					<input type="number"
+					step="15"
+					placeholder="multiples of 15"
+					min="15"
+					max="120"
+					id="time" class="input-item">		
+				</div>
+
+				<button type="button" class='button' id='create'>Create</button>
+				<input type="button" name="reset_form" value="Reset" onclick="this.form.reset()" class="button">
+			</form>
+
+		</header>
+
+	</body>
+	<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js'></script>
+	<script type='module' src="/addWorkout.js" charset="utf-8"></script>
+</html>
+
+
+
+

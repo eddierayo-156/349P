@@ -1,0 +1,13 @@
+<div class="tagline">
+	<p class="title" style="color:white;">Workout List</p>
+</div>
+{{#each test}}
+	<br>
+	<label style="color: white;">{{this.title}}:  </label>
+	<label style="color: white;">{{this.name}}</label>
+	<a style="color: red;"href=''>{{this._id}}</a>
+{{/each}}
+
+	<div class="return">
+		<button class="button" onclick="history.go(0)">Go Back</button>
+	</div>

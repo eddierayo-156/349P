@@ -1,0 +1,25 @@
+<div class="tagline">
+	<p class="title" style="color:white;">Workout</p>
+</div>
+<label class="item-name">Title: </label>
+<label class="item-name">{{title}}</label>
+<br>
+<label class="item-name">Workout Name: </label>
+<label class="item-name">{{name}}</label>
+<br>
+<label class="item-name">Workout Type: </label>
+<label class="item-name">{{type}}</label>
+<br>
+<label class="item-name">Sets: </label>
+<label class="item-name">{{sets}}</label>
+<br>
+<label class="item-name">Reps: </label>
+<label class="item-name">{{reps}}</label>
+<br>
+<label class="item-name">Time: </label>
+<label class="item-name">{{time}}</label>
+
+
+<div class="return">
+	<a href='/workoutList.html' class="button">GO BACK</a>
+</div>
